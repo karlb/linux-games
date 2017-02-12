@@ -1,0 +1,20 @@
+
+#include "../raw/gametemplate.wml"
+
+<name Numbers>
+<version 0.9>
+
+<bcontent left 0>
+    A simple puzzle game. A field is filled with boxes. Every box
+    is labeled with a number between 1 and 5, and the box may only
+    be moved by that amount of fields. Your goal is to move every
+    box once.
+</bcontent>
+
+<change "snow version available (1.2.0S)">
+<change "better Makefile">
+
+<download Numbers.tar.gz "Numbers 0.9 (binary and source)">
+<download Numbers.vrp "Numbers.vrp package (version 0.9, 1.2.0S only)">
+
+<end>

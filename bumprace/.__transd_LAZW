@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Linux-games.com</title>
+		<meta name="author" content="Karl Bartel" />
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../static/style.css">
+
+		<link rel="stylesheet" type="text/css" href="../css/main.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+		</script>
+		<script type="text/javascript">
+			_uacct = "UA-118161-1";
+			urchinTracker();
+		</script>
+	</head>
+	<body>
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+			<tr>
+				<td id="top" colspan="2">
+					<img src="/design/logo.png" alt="linux-games"/>
+				</td>
+			</tr>
+			<tr>
+				<td id="nav">
+    					<ul>
+						<li class="header">This Site</li>
+						<li class="subheader">Information</li>
+						<li><a href="../news">News</a></li>
+						<li><a href="../links">Game Links</a></li>
+						<li><a href="http://www.karl.berlin">About me</a></li>
+				
+						<li class="header">Software</li>
+						<li class="subheader">PC Games</li>
+						<li><a href="../penguin-command">Penguin Command</a></li>
+						<li><a href="../bumprace">BumpRace</a></li>
+						<li><a href="../black-box">Black-Box</a></li>
+						<li><a href="../castle-combat">Castle-combat</a></li>
+						<li><a href="../nuclearchess">NuclearChess</a></li>
+						<li class="subheader">Web Games</li>
+						<li><a href="../jsnumbers">jsNumbers</a></li>
+						<li class="subheader">Zaurus Games</li>
+						<li><a href="../zsubhunt">zSubHunt</a></li>
+						<li><a href="../zblack-box">zBlack-Box</a></li>
+						<li><a href="../znumbers">zNumbers</a></li>
+						<li><a href="../zmerlin">zMerlin</a></li>
+						<li><a href="../ztappy">zTappy</a></li>
+						<li><a href="../zchain">zChain</a></li>
+						<li class="subheader">VR3 Software</li>
+						<li><a href="../black-box-VR3">Black-Box-VR3</a></li>
+						<li><a href="../numbers">Numbers</a></li>
+						<li><a href="../easyinstall">Easy install</a></li>
+						<li class="subheader">Libs</li>
+						<li><a href="../sfont">SFont</a></li>
+						<li><a href="../sfont/fonts.html">Fonts for SFont</a></li>
+					</ul>
+				</td>
+				<td id="main">
+<!--Main begin-->
+
+<!doctype html>
+<!--title> — linux-games</title>
+<body>
+  <header>
+    <h1>linux-games</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../">Welcome</a></li>
+        
+          <li><a href="../blog/">Blog</a></li>
+        
+          <li><a href="../projects/">Projects</a></li>
+        
+          <li><a href="../about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </header-->
+
+  <div class="page">
+    
+  <h2></h2>
+  <!--Main begin-->
+<div style="text-align:center">
+<img src="logo.png" alt="" width="250" height="61">
+</div>
+<div class="col">
+<img src="shot1.png" alt="" width="200" height="155">
+    <dl class="block">
+        <dt>What is BumpRace?</dt>
+        <dd>BumpRace is a simple arcade game. You've to get from the start to the finish line without crashing into deadly blocks. This game has really simple rules!</dd>
+
+        <dt>Downloads</dt>
+        <dd>
+            <ul>
+                <li><a href="https://bitbucket.org/karlb/bumprace/get/1.5.5.tar.gz">BumpRace 1.5.5 for Linux(source)</a></li>
+                <li><a href="BumpRace.app.zip">BumpRace 1.5.2 for Mac OS X</a></li>
+                <li><a href="bumprace.exe">BumpRace 1.43 for Windows</a></li>
+                <li><a href="http://www.debian.org/Packages/unstable/games/bumprace.html">BumpRace for debian</a></li>
+                <li><a href="http://come.to/georgie">BumpRace for Solaris</a></li>
+                <li><a href="http://www.bebits.com/app/2125">BumpRace for BeOS</a>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+</div>
+<div class="col">
+<img src="shot2.png" alt="" width="200" height="155">
+    <dl class="block">
+        <dt>What's new in version 1.5.5?</dt>
+        <dd>
+        <ul>
+            <li>updated autotools files</li>
+            <li>updated README</li>
+            <li>spelling corrections</li>
+            <li>less compiler warnings</li>
+            <li>reset levels to include time bonus when restarting game</li>
+        </ul></dd>
+    </dl>
+</div>
+<!--Main end-->
+
+  </div>
+
+<!--Main end-->
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

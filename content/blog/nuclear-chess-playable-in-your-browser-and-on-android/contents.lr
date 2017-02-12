@@ -1,9 +1,0 @@
-title: Nuclear Chess playable in your browser and on Android
----
-body:
-
-Nuclear Chess has been ported to JavaScript, so that you can [play right from your browser](http://karlb.github.io/nuclearchess/). I've also packaged it as an Android App [available on Google Play](https://play.google.com/store/apps/details?id=com.github.elastic). Try it and [let me know what you think](mailto:karl42@gmail.com)!  
-
-And if there's something you want to improve, feel free to dive into the [code on github](https://github.com/karlb/nuclearchess).
----
-pub_date: 2014-05-07
