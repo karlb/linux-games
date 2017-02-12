@@ -1,0 +1,20 @@
+
+#include '../raw/template.wml'
+
+<bheader left 0> What is {#name#}? </bheader>
+<bheader right 0> What's new in version {#VERSION_LOC#}? </bheader>
+<bcontent right 0> <ul>{#CHANGE_LOC#}</ul> </bcontent>
+<bheader left 1> Downloads </bheader>
+<bcontent left 1> <ul>{#DOWNLOAD_LOC#}</ul> </bcontent>
+
+<define-tag version>
+{#VERSION_LOC#:%0:##}
+</define-tag>
+
+<define-tag change>
+{#CHANGE_LOC#:<li>%body</li>:##}
+</define-tag>
+
+<define-tag download>
+{#DOWNLOAD_LOC#:<li><a href="%0">%1</a> %2</li>:##}
+</define-tag>

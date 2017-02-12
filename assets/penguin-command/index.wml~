@@ -1,0 +1,40 @@
+
+#include "../raw/gametemplate.wml"
+
+<name Penguin-Command>
+<version 1.6.10>
+
+<bcontent left 0>
+	This is a clone of the classic "Missile Command" Game, but it has better graphics and music. The gameplay has only been slightly modified. Penguin Command is licensed under the GPL.
+</bcontent>    
+
+<change "fixed a possible freeze in Help/Options menu">
+<change "updated MacOS X binary (solves crash on startup)">
+
+<download http://prdownloads.sourceforge.net/penguin-command/penguin-command-1.6.10.tar.gz "Penguin Command 1.6.10 for Linux (source)">
+<download penguin-command-exe.html "Penguin Command 1.6.3 for Windows">
+<download http://prdownloads.sourceforge.net/penguin-command/penguin-command.zip?download "Penguin Command 1.6.9 for MacOS X">
+<download http://packages.debian.org/unstable/games/penguin-command.html "Penguin Command for debian">
+<download http://www.freebsd.org/cgi/ports.cgi?query=penguin-command&amp;stype=name "Penguin Command for FreeBSD">
+<download http://www.smaug.co.uk/penguincommand/ "Penguin Command for BeOS">
+<download http://come.to/georgie "Penguin Command for Solaris">
+<download http://people.freenet.de/LinuxCNC/0install/penguin-command "Penguin Command 0install interface (linux/i386)">
+
+<bheader right 1>
+	Reviews from <a href="http://www.happypenguin.org/show?penguin%20command">Happypenguin.org</a>
+</bheader>
+
+<bcontent right 1>
+	<ul>
+	<li>Incredible! The graphics and sound are beautiful, especially the music, and I've yet to find a bug in the game. This is another
+	excellent example of what can be achieved in open source games.
+	<li>Best waste of my time I have managed to come up with yet. Enjoyable, well paced and challenging.
+	<li>Really wonderfull ! [...]
+	<li>Penguin Command was everything I hoped it would be, and more. The graphics are very well done, the gameplay is smooth, and the game is pleasantly addictive. I can 
+	give this game no less than 5 stars.
+	<li>I like it, nice sounds, nice graphics. It's fast enough on my K6-200.
+	<li>Awesome game! Was just going through a menu and came across the icon...low and behold I find my now favorite Linux game!
+	</ul>
+</bcontent>    
+
+<end>

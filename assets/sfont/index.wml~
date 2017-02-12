@@ -1,0 +1,92 @@
+
+#include "../raw/template.wml"
+
+<logo sfont.png>
+
+<bheader left 0>
+    Why Should I use SFont?
+</bheader>
+<bcontent left 0>
+      <ul>
+        <li>It supports colored, alpha mapped fonts</li>
+        <li>It is easy to use</li>
+        <li>You don't need any extra libs - just add the tiny SFont.c (4K) to your objects!</li>
+        <li>It's easy to create your own fonts!</li>
+        <li>Nice collection of good fonts</li>
+        <li>Handle as many fonts as you like at the same time</li>
+        <li>It works on any platform supported by SDL</li>
+        <li>It's GPL'ed. Change anything you dislike</li>
+        <li>It's well tested and used in many projects</li>
+	<li>You don't have to deal with strange file formats: all font info is stored in one image file</li>
+	<li>The fonts are not dependant on the used image file format</li>
+	<li>Nice C++ integration via a wrapper</li>
+      </ul>
+</bcontent>
+
+<bheader right 0>
+    These projects use SFont
+</bheader>
+<bcontent right 0>
+      <ul>
+        <li><a href="http://netpanzer.berlios.de/">netPanzer</a>, an online multiplayer tactical warfare game</li>
+        <li><a href="http://lgames.sourceforge.net/index.php?project=Barrage">Barrage</a>, a rather violent action game</li>
+        <li><a href="http://www.etek.chalmers.se/~e8cal1/sge/index.html">SGE</a>, a good graphics lib</li>
+        <li><a href="http://sourceforge.net/projects/sdlpl/">SDL Perl</a>, the SDL perl wrapper</li>
+        <li><a href="http://froukepc.dhs.org/rudl/">RUDL</a>, the Rubyesque Directmedia Layer</li>	
+	<li><a href="http://www.grinninglizard.com/kyra/">Kyra</a> supports the SFont file format</li>
+        <li><a href="http://libksd.sourceforge.net/">libksd</a>, a game framework</li>
+        <li><a href="../penguin-command/" target=main>Penguin Command</a>, a missile command clone</li>
+        <li><a href="../bumprace/" target=main>BumpRace</a>, a fun racing game</li>
+        <li><a href="../black-box/" target=main>BlackBox</a>, a puzzle game</li>
+        <li><a href="../castle-combat/" target=main>Castle-Combat</a>, a multiplayer action-strategy game</li>
+        <li><a href="http://spacerocks.sourceforge.net/">Rock Dodgers</a>, a side scroller</li>
+        <li><a href="http://angel-wars.sourceforge.net">Angel Wars</a>, a vertical scroller</li>
+        <li><a href="http://www.cs.unibo.it/~dbilli/bfont/bfont.html">BFont</a> adds some nice features to SFont</li>
+        <li><a href="http://olofson.net/skobo/">Kobo Deluxe</a>, a remake of arcade game xkobo</li>
+        <li><a href="http://yasfcave.sourceforge.net/">YaSFCave</a>, a simple but funny action game</li>
+        <li><a href="http://freedroid.sourceforge.net">Freedroid</a>, a Paradroid clone</li>
+        <li><a href="http://smw.72dpiarmy.com/">Super Mario War</a>, a Mario deathmatch game</li>
+      </ul>
+</bcontent>
+
+<bheader left 1>
+    Downloads
+</bheader>
+<bcontent left 1>
+    <ul>
+      <li>
+	<a href="SFont-2.03.tar.gz">SFont 2.03</a><br>
+	This tarball contains the SFont library (one .c and one .h file), a c++ wrapper, three example programs, two fonts, and the SFontViewer.
+      </li>
+      <li>
+	<a href="SFont-1.8.tar.gz">SFont 1.71</a><br>
+	This is the older SFont version. It is still maintained, but not recommended for new projects, because it's API is less clean.
+      </li>
+    </ul>
+</bcontent>
+
+<bheader right 1>
+    Other interesting SFont links
+</bheader>
+<bcontent right 1>
+    <ul>
+	<li>
+	    <a href="http://www.nostatic.org/sfont/">SFontmaker</a><br>
+	    A Tool that helps creating new Fonts.
+	</li>
+	<li>
+		<a href="http://sfont.nein-andy.de">SFont Fontbuilder GUI</a><br>
+A Windows GUI for <a href="http://www.2dgame-tutorial.com/sdl/fontbuilder/index.htm">SFont Fontbuilder</a>
+	</li>
+	<li>
+	    <a href="http://www.zlurp.com/irq/">Ilana's Programming Tools</a><br>
+	    Home of an SFont fork, which supports international characters.
+	</li>
+	<li>
+	    <a href="http://jnrdev.weed-crew.net/downloads/sfont_howto.zip">SFont Mini Howto</a><br>
+	    Mini Howto about SFont Font creation for Windows users.
+	</li>
+    </ul>
+</bcontent>
+
+<end>

@@ -1,0 +1,10 @@
+
+#use wml::std::tags
+
+#include "../parts/header.part"
+
+<dump "body">
+
+#include "../parts/footer.part"
+
+{#body#:

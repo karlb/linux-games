@@ -1,0 +1,58 @@
+
+#include "../raw/main.wml"
+
+<h1>About me</h1>
+
+<div class="col">
+
+<dl class="block">
+    <dt>
+	General
+    </dt>
+    <dd>
+	My name is Karl Bartel. I'm 27 years old and I live in Berlin. 
+    </dd>
+
+    <dt>
+	E-mail
+    </dt>
+    <dd>
+	<a href="mailto:karlb@gmx.net">karlb@gmx.net</a>
+    </dd>
+</dl>
+
+</div>
+<div class="col">
+
+
+<dl class="block">
+    
+    <dt>
+	Programming:
+    </dt>
+    <dd>
+	You'll surely have noticed, that I like programming.
+	My favorite programming language is python and I'm usually using vim to write my code.
+    </dd>
+</dl>
+
+</div>
+
+<div style="text-align: center">
+
+<BR />
+<BR />
+<IMG SRC="karl1.jpg" ALT="The SDL Logo"/><BR/>
+I've won the "<a href="http://www.devolution.com/~slouken/SDL/">SDL</a>
+Logo Contest" with this picture.
+
+<BR />
+<BR />
+
+<img SRC="wmlogo.jpg" ALT="My Window Maker Logo" height=250 width=602 align=BOTTOM/><br />
+I took part in the "<a href="http://www.windowmaker.org">Window Maker</a> Logo Contest" with this picture.
+</center>
+<BR />
+<BR />
+
+</div>

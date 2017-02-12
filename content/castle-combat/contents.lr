@@ -1,0 +1,42 @@
+body:
+
+<div style="text-align:center">
+	<img src="/castle-combat/logo.png" alt="" width="300" height="57">
+</div>
+
+<div class="col">
+	<img src="/castle-combat/shot1.png" alt="" width="200" height="150">
+	<dl class="block">
+		<dt>What is Castle-Combat?</dt>
+		<dd>It is a clone of the old arcade game <a href="http://en.wikipedia.org/wiki/Rampart_%28arcade_game%29">Rampart</a>. Up to four players (or more in future versions) build castle walls, place cannons inside these walls, and shoot at the walls of their enemy(s). If a player cannot build a complete wall around one of his castles, he loses. The last surviving player wins.</dd>
+
+		<dt>Downloads</dt>
+		<dd>
+			<ul>
+				<li><a href="http://prdownloads.sourceforge.net/castle-combat/castle-combat-0.8.1.tar.gz?download">Castle-Combat 0.8.1 tarball for linux/unix systems (requires Pygame and Twisted, source included)</a></li>
+				<li><a href="http://prdownloads.sourceforge.net/castle-combat/Castle-Combat-0.8.1.tar.bz2?download">Castle-Combat.app 0.8.1 for MacOS X 10.3 or higher</a> </li>
+				<li><a href="http://prdownloads.sourceforge.net/castle-combat/castle-combat-setup.exe?download">Castle-Combat.app 0.8.0 for Windows</a> </li>
+				<li><a href="http://www.openbsd.org/3.5_packages/powerpc/castle-combat-0.7.2.tgz-contents.html">Castle-Combat for OpenBSD</a></li>
+			</ul>
+		</dd>
+	</dl>
+</div>
+
+<div class="col">
+	<img src="/castle-combat/shot2.png" alt="" width="200" height="150">
+	<dl class="block">
+		<dt>What's new in version 0.8.1?</dt>
+		<dd>
+			<ul>
+				<li>Simple single-player mode</li>
+				<li>Conquer mode is back</li>
+				<li>Fullscreen and Sound can be turned on/off</li>
+				<li>Better netcode</li>
+				<li>As always: a lot of small improvements, fixes and clean-ups</li></ul></dd><dt>Links</dt><dd><ul> 
+				<li><a href="https://sourceforge.net/forum/?group_id=50761">Castle-Combat discussion forums</a></li> 
+				<li><a href="http://kombat.kajaani.net/">Kajaani Kombat</a>, another Rampart clone, which was inspired by Castle-Combat</li> 
+				<li><a href="http://www.geocities.com/Area51/Portal/6410">Crystal Crew</a> (dead link), authors of the great Castle-Combat music</li>
+			</ul>
+		</dd>
+	</dl>
+</div>

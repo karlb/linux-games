@@ -1,0 +1,42 @@
+
+#include "../raw/gametemplate.wml"
+
+<name Penguin-Command>
+<version 1.6.11>
+
+<bcontent left 0>
+	This is a clone of the classic "Missile Command" Game, but it has better graphics and music. The gameplay has only been slightly modified. Penguin Command is licensed under the GPL.
+</bcontent>    
+
+<change "fixed possible buffer overflow when $HOME is very large (Thanks Ulf Härnhammar).">
+<change "removed the great tune "Penguin Night" since it seemed to cause random crashes (Thanks Brandon Barnes). Better solutions are very welcome. See the <a href=\"http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=184437\">bug report</a> for details">
+
+<download http://prdownloads.sourceforge.net/penguin-command/penguin-command-1.6.11.tar.gz "Penguin Command 1.6.11 for Linux (source)">
+<download http://prdownloads.sourceforge.net/penguin-command/penguin-command-win32-1.6.11.zip "Penguin Command 1.6.11 for Windows">
+<download http://prdownloads.sourceforge.net/penguin-command/penguin-command.zip?download "Penguin Command 1.6.9 for MacOS X">
+<download http://packages.debian.org/unstable/games/penguin-command.html "Penguin Command for debian">
+<download http://www.freebsd.org/cgi/ports.cgi?query=penguin-command&amp;stype=name "Penguin Command for FreeBSD">
+<download http://www.smaug.co.uk/penguincommand/ "Penguin Command for BeOS">
+<download http://come.to/georgie "Penguin Command for Solaris">
+<download http://os4depot.net/index.php?function=showfile&file=game/action/penguincommand.lha "Penguin Command for Amiga OS4">
+<download http://people.freenet.de/LinuxCNC/0install/penguin-command "Penguin Command 0install interface (linux/i386)">
+<download http://archives.aros-exec.org/index.php?function=showfile&file=game/action/penguin-command.i386-aros.zip "Penguin Command for AROS">
+
+<bheader right 1>
+	Reviews from <a href="http://www.happypenguin.org/show?penguin%20command">Happypenguin.org</a>
+</bheader>
+
+<bcontent right 1>
+	<ul>
+	<li>Incredible! The graphics and sound are beautiful, especially the music, and I've yet to find a bug in the game. This is another
+	excellent example of what can be achieved in open source games.
+	<li>Best waste of my time I have managed to come up with yet. Enjoyable, well paced and challenging.
+	<li>Really wonderfull ! [...]
+	<li>Penguin Command was everything I hoped it would be, and more. The graphics are very well done, the gameplay is smooth, and the game is pleasantly addictive. I can 
+	give this game no less than 5 stars.
+	<li>I like it, nice sounds, nice graphics. It's fast enough on my K6-200.
+	<li>Awesome game! Was just going through a menu and came across the icon...low and behold I find my now favorite Linux game!
+	</ul>
+</bcontent>    
+
+<end>

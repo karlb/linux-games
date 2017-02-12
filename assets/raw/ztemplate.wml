@@ -1,0 +1,7 @@
+
+
+#include '../raw/gametemplate.wml'
+
+
+<download {#lowname#}_{#VERSION_LOC#}_arm.ipk {#name#}.ipk>
+<download {#lowname#}.tar.gz "{#name#} source">

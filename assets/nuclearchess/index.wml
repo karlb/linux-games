@@ -1,0 +1,30 @@
+
+#include "../raw/gametemplate.wml"
+
+<name NuclearChess>
+<version 1.0.0>
+<!--logo logo.png-->
+
+<bcontent left 0>
+    NuclearChess is a chess variant. Whenever a piece is captured, both pieces
+    and all pieces on neighbour fields die. Games are short and fun even for
+    people who usually don't play chess.
+</bcontent>
+
+<change "Fixed memory corruption bug, which resulted in a crash on capture on many systems">
+
+<download nuclearchess-1.0.0.tar.gz "NuclearChess 1.0.0 for linux">
+<download NuclearChess.tar.bz2 "NuclearChess 0.9.2 for MacOS X">
+<download http://os4depot.net/index.php?function=showfile&file=game/board/nuclearchess.lha "NuclearChess for Amiga OS4">
+
+<bheader right 1>
+    Authors
+</bheader>
+<bcontent right 1>
+    This is a family production by Harald Bartel (AI, main code), Ulf Bartel
+    (C conversion) and Karl Bartel (graphics). Once tested by Holger Bartel
+    (who lost).
+</bcontent>
+
+
+<end>

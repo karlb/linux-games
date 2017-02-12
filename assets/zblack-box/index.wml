@@ -1,0 +1,15 @@
+
+
+#include '../raw/ztemplate.wml'
+
+<bcontent left 0>
+    It is a port of my puzzle game <a href='../black-box/'>'Black-Box'</a>
+    to the Sharp Zaurus PDA.
+</bcontent>
+
+<name zBlack-Box>
+<version 0.9.1>
+
+<change "now using double buffering">
+
+<end>
