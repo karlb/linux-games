@@ -1,0 +1,37 @@
+
+#include "../raw/gametemplate.wml"
+
+<name jsNumbers>
+<version 1.0>
+
+<bcontent left 0>
+	JsNumbers is a simple puzzle, where you have to move each block exactly once. But each block's movement is
+	restricted to a certain distance.<br/>
+	The game is written in JavaScript and is played in the browser.
+</bcontent>    
+
+<change "first release">
+
+<bheader left 1>
+	Play now
+</bheader>
+<bcontent left 1>
+	<div style="text-align:center">
+		<a href="game.html" style="font-size:140%">Play now!</a>
+	</div>
+	(requires standards-compliantbrowser, like FireFox, Mozilla or Safari. Internet Explorer will not work)
+</bcontent>    
+
+<bheader right 1>
+Links
+</bheader>
+
+<bcontent right 1>
+	<ul>
+		<li><a href="http://lightforce.freestuff.gr/znumbers.php">Flash version</a> by Nick Kouvaris</li>
+		<li><a href="../znumbers/">zNumbers for the Sharp Zaurus PDA</a></li>
+		<li><a href="../numbers/">Numbers for the Agenda VR3 PDA</a></li>
+	</ul>
+</bcontent>
+
+<end>

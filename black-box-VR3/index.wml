@@ -1,0 +1,28 @@
+
+#include "../raw/gametemplate.wml"
+
+<name Black-Box-VR3>
+<version 1.1>
+
+<bcontent left 0>
+     It is a port of my puzzle game "<a href="../black-box">Black-Box</a>" to the Agenda-VR3 PDA. 
+     Since it uses xlib for graphics, you can try it on your normal X-Windows.
+</bcontent>
+
+<change "source code cleanup">
+
+<download black-box-VR3.tar.gz "Black-Box-VR3 1.1 (SNOW-binary and source)">
+
+<bheader right 1>
+    How to play
+</bheader>
+<bcontent right 1>
+    A certain number of crystals is hidden in this black-box. 
+    These crystals refelt incoming shots. You can shoot into 
+    the back and watch the shots coming out somewhere. Now 
+    you have to guess were the crystals are. If you found
+    all crystals you have won the game. (better explanations
+    are welcome!)
+</bcontent>
+
+<end>

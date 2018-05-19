@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Linux-Games.com News</title>
+  <id>urn:uuid:8654ba3d-6531-34b9-8476-63b54b755005</id>
+  <updated>2017-02-12T00:00:00Z</updated>
+  <link href="http://www.linux-games.com/" />
+  <link href="http://www.linux-games.com/feed.xml" rel="self" />
+  <author>
+    <name></name>
+  </author>
+  <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
+  <entry xml:base="http://www.linux-games.com/blog/site-hosting-changes/">
+    <title type="text">Site Hosting Changes</title>
+    <id>urn:uuid:a154d5c5-18ae-3038-badd-e8b28e761552</id>
+    <updated>2017-02-12T00:00:00Z</updated>
+    <link href="http://www.linux-games.com/blog/site-hosting-changes/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;This site is now hosted at a different location and some technical changes have been done to make it easier to host this site. If you've subscribed to the news feed, please use &lt;a href=&quot;http://www.linux-games.com/feed.xml&quot;&gt;the new feed URL&lt;/a&gt;. If anything is broken, please &lt;a href=&quot;mailto:karl42@gmail.com&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://www.linux-games.com/blog/bumprace-155-released/">
+    <title type="text">Bumprace 1.5.5 released</title>
+    <id>urn:uuid:30f52329-f392-3064-a1f7-d4ed743fe560</id>
+    <updated>2016-04-17T00:00:00Z</updated>
+    <link href="http://www.linux-games.com/blog/bumprace-155-released/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;Just the usual bunch of bug fixes and minor updates.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://www.linux-games.com/blog/nuclear-chess-playable-in-your-browser-and-on-android/">
+    <title type="text">Nuclear Chess playable in your browser and on Android</title>
+    <id>urn:uuid:da302f5c-a37b-31be-aa52-9a21963fea08</id>
+    <updated>2014-05-07T00:00:00Z</updated>
+    <link href="http://www.linux-games.com/blog/nuclear-chess-playable-in-your-browser-and-on-android/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;Nuclear Chess has been ported to JavaScript, so that you can &lt;a href=&quot;http://karlb.github.io/nuclearchess/&quot;&gt;play right from your browser&lt;/a&gt;. I've also packaged it as an Android App &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.github.elastic&quot;&gt;available on Google Play&lt;/a&gt;. Try it and &lt;a href=&quot;mailto:karl42@gmail.com&quot;&gt;let me know what you think&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;And if there's something you want to improve, feel free to dive into the &lt;a href=&quot;https://github.com/karlb/nuclearchess&quot;&gt;code on github&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://www.linux-games.com/blog/all-sources-available-on-bitbucket/">
+    <title type="text">All sources available on Bitbucket</title>
+    <id>urn:uuid:e9a6df18-6e81-39d1-8a3f-cc877ff517c1</id>
+    <updated>2011-01-06T00:00:00Z</updated>
+    <link href="http://www.linux-games.com/blog/all-sources-available-on-bitbucket/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;The source code for all projects on this site is now available on bitbucket. If you want to contribute or grab a version with the latest changes, have a look at my &lt;a href=&quot;https://bitbucket.org/karlb&quot;&gt;bitbucket page&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://www.linux-games.com/blog/new-penguin-command-build-for-windows/">
+    <title type="text">New Penguin Command build for Windows</title>
+    <id>urn:uuid:7d211183-d6da-312e-9c52-d6104a7e1666</id>
+    <updated>2008-11-27T00:00:00Z</updated>
+    <link href="http://www.linux-games.com/blog/new-penguin-command-build-for-windows/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;The latest version of Penguin Command is now also available for Windows. Thanks go to Kein-Hong Man for creating and packaging this build.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://www.linux-games.com/blog/black-box-148-released/">
+    <title type="text">Black-box 1.4.8 released</title>
+    <id>urn:uuid:214574a6-5697-3de5-ba67-f2e2d7db9584</id>
+    <updated>2008-10-05T00:00:00Z</updated>
+    <link href="http://www.linux-games.com/blog/black-box-148-released/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;This release fixes all known bugs. Thanks to Javier Serrano Polo, who did nearly all of the work on this release.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

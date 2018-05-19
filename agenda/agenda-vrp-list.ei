@@ -1,0 +1,420 @@
+Name: aliens
+Section: 
+Description: galaga-like slide-at-the-bottom game
+Importance: 10
+URL: agenda-vrp aliens
+---
+Name: apm-sleep
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp apm-sleep
+---
+Name: aps-calculator
+Section: 
+Description: default calculator program
+Importance: 20
+URL: agenda-vrp aps-calculator
+---
+Name: aps-contacts
+Section: 
+Description: default contacts program
+Importance: 60
+URL: agenda-vrp aps-contacts
+---
+Name: aps-expenses
+Section: 
+Description: default expenses program
+Importance: 10
+URL: agenda-vrp aps-expenses
+---
+Name: aps-find
+Section: 
+Description: simple find front-end
+Importance: 10
+URL: agenda-vrp aps-find
+---
+Name: aps-framework
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp aps-framework
+---
+Name: aps-notes
+Section: 
+Description: default notes program
+Importance: 60
+URL: agenda-vrp aps-notes
+---
+Name: aps-schedule
+Section: 
+Description: default schedule program
+Importance: 60
+URL: agenda-vrp aps-schedule
+---
+Name: aps-to-do
+Section: 
+Description: default todo program
+Importance: 60
+URL: agenda-vrp aps-to-do
+---
+Name: ash
+Section: 
+Description: the small ash shell
+Importance: 100
+URL: agenda-vrp ash
+---
+Name: assorted-card-games
+Section: 
+Description: some nice card games
+Importance: 10
+URL: agenda-vrp assorted-card-games
+---
+Name: bash
+Section: 
+Description: the mighty bash shell
+Importance: 50
+URL: agenda-vrp bash
+---
+Name: busybox
+Section: 
+Description: a collection of command line tools
+Importance: 100
+URL: agenda-vrp busybox
+---
+Name: defaults
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp defaults
+---
+Name: diagnostics
+Section: 
+Description: diagnostic programs
+Importance: 10
+URL: agenda-vrp diagnostics
+---
+Name: eraseall
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp eraseall
+---
+Name: fbctl
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp fbctl
+---
+Name: flash-init
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp flash-init
+---
+Name: flek
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp flek
+---
+Name: flpda
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp flpda
+---
+Name: fltk
+Section: 
+Description: fltk-library (a GUI toolkit)
+Importance: 100
+URL: agenda-vrp fltk
+---
+Name: gbm
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp gbm
+---
+Name: gharmonic
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp gharmonic
+---
+Name: glibc
+Section: 
+Description: the GNU libc
+Importance: 100
+URL: agenda-vrp glibc
+---
+Name: irda-utils
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp irda-utils
+---
+Name: irdiscovery
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp irdiscovery
+---
+Name: irobex
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp irobex
+---
+Name: irobexd
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp irobexd
+---
+Name: ldconfig
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp ldconfig
+---
+Name: libdb
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp libdb
+---
+Name: libglib
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp libglib
+---
+Name: libscrib
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp libscrib
+---
+Name: libstdc++
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp libstdc++
+---
+Name: lirc
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp lirc
+---
+Name: memstat
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp memstat
+---
+Name: mine
+Section: 
+Description: 
+Importance: 10
+URL: agenda-vrp mine
+---
+Name: net-tools
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp net-tools
+---
+Name: netkit-base
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp netkit-base
+---
+Name: netkit-telnet
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp netkit-telnet
+---
+Name: openobex
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp openobex
+---
+Name: ppp
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp ppp
+---
+Name: procps
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp procps
+---
+Name: restore_defaults
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp restore_defaults
+---
+Name: rsync
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp rsync
+---
+Name: runone
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp runone
+---
+Name: rxvt
+Section: 
+Description: virual terminal
+Importance: 100
+URL: agenda-vrp rxvt
+---
+Name: sh-utils
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp sh-utils
+---
+Name: share-files
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp share-files
+---
+Name: sox
+Section: 
+Description: a sound file converter
+Importance: 10
+URL: agenda-vrp sox
+---
+Name: strace-sgi-2001-03
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp strace-sgi-2001-03
+---
+Name: tpcal
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp tpcal
+---
+Name: util-linux
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp util-linux
+---
+Name: vr-tris
+Section: 
+Description: a tetris clone
+Importance: 10
+URL: agenda-vrp vr-tris
+---
+Name: vrdm
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp vrdm
+---
+Name: vrsm
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp vrsm
+---
+Name: vru-contrast
+Section: 
+Description: 
+Importance: 70
+URL: agenda-vrp vru-contrast
+---
+Name: vru-datetime
+Section: 
+Description: 
+Importance: 70
+URL: agenda-vrp vru-datetime
+---
+Name: vru-keyboard
+Section: 
+Description: on-screen keyoard
+Importance: 100
+URL: agenda-vrp vru-keyboard
+---
+Name: vru-launchpad
+Section: 
+Description: the launchpad (progam starter)
+Importance: 70
+URL: agenda-vrp vru-launchpad
+---
+Name: vru-launchpad-icons
+Section: 
+Description: icons for the launchpad
+Importance: 70
+URL: agenda-vrp vru-launchpad-icons
+---
+Name: vru-network
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp vru-network
+---
+Name: vru-power
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp vru-power
+---
+Name: vru-quicksync
+Section: 
+Description: 
+Importance: 60
+URL: agenda-vrp vru-quicksync
+---
+Name: vru-statusbar
+Section: 
+Description: 
+Importance: 60
+URL: agenda-vrp vru-statusbar
+---
+Name: vrwm
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp vrwm
+---
+Name: worldclock
+Section: 
+Description: 
+Importance: 0
+URL: agenda-vrp worldclock
+---
+Name: xfree86-2001-05
+Section: 
+Description: the xfree86 xserver
+Importance: 100
+URL: agenda-vrp xfree86-2001-05
+---
+Name: xpmroot
+Section: 
+Description: a program for setting background images
+Importance: 60
+URL: agenda-vrp xpmroot
+---
+Name: xrc
+Section: 
+Description: 
+Importance: 100
+URL: agenda-vrp xrc
+---

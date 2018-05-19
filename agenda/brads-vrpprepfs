@@ -1,0 +1,25 @@
+if test $VERBOSITY -gt 0; then
+  echo "Seting xip files."
+fi
+chmod +t ${VRP_OUTPUT}/distro/lib/ld-2.0.7.so
+chmod +t ${VRP_OUTPUT}/distro/lib/libc-2.0.7.so
+chmod +t ${VRP_OUTPUT}/distro/lib/libm-2.0.7.so
+chmod +t ${VRP_OUTPUT}/distro/usr/X11R6/lib/libX11.so.6.2
+
+if test $VERBOSITY -gt 0; then
+  echo "Making aps links."
+fi
+
+pushd ${VRP_OUTPUT}/distro/usr/bin
+ln -s aps calculator
+ln -s aps contacts
+ln -s aps expenses
+ln -s aps notes
+ln -s aps schedule
+ln -s aps to-do
+popd
+
+if test $VERBOSITY -gt 0; then
+  echo "Stamping release."
+fi
+./release > ${VRP_OUTPUT}/distro/defaults/etc/release

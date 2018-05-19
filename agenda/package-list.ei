@@ -1,0 +1,144 @@
+Name: pdamaze
+Section: Games
+Description: walk through a maze
+URL: BASE/pdamaze.tar.gz
+ELF: SVR4 1.2.0
+--
+Name: numbers
+Section: Games
+Description: simple puzzle game
+URL: BASE/numbers.tar.gz
+ELF: SVR4 1.2.0
+--
+Name: black-box
+Section: Games
+Description: puzzle game
+URL: BASE/black-box.tar.gz
+ELF: 1.2.0
+--
+Name: agendaroids
+Section: Games
+Description: asteroids clone
+URL: BASE/agendaroids.tar.gz
+ELF: SVR4 1.2.0
+--
+Name: brickout
+Section: Games
+Description: breakout clone
+URL: BASE/brickout.tar.gz
+ELF: SVR4 1.2.0
+--
+Name: fman
+Section: Applications
+Description: a simple file manager
+URL: BASE/fman.tar.gz
+ELF: SVR4 1.2.0
+--
+Name: same
+Section: Games
+Description: a samegame clone
+URL: BASE/same.tar.gz
+ELF: SVR4
+--
+Name: perl
+Section: Applications
+Description: this is microperl, a small version of perl
+URL: BASE/perl.tar.gz
+ELF: SVR4
+--
+Name: andy_defaults
+Section: System
+Description: a script which makes the agenda more usable
+URL: BASE/andy_defaults.vrp
+ELF: all
+--
+Name: minimail
+Section: Applications
+Description: a small mail client
+URL: BASE/minimail.tar.gz
+ELF: 1.2.0
+--
+Name: aliens
+Section: Games
+Description: an action game
+URL: BASE/aliens.tar.gz
+ELF: 1.2.0
+--
+Name: checkers
+Section: Games
+Description: a board game
+URL: BASE/checkers.tar.gz
+ELF: 1.2.0
+--
+Name: freecell
+Section: Games
+Description: a card game
+URL: BASE/freecell.tar.gz
+ELF: 1.2.0
+--
+Name: golf
+Section: Games
+Description: a card game
+URL: BASE/golf.tar.gz
+ELF: 1.2.0
+--
+Name: merlin
+Section: Games
+Description: a puzzle game
+URL: BASE/merlin.tar.gz
+ELF: 1.2.0
+--
+Name: mine
+Section: Games
+Description: a minesweeper clone
+URL: BASE/mine.tar.gz
+ELF: 1.2.0
+--
+Name: solitaire
+Section: Games
+Description: a card game
+URL: BASE/solitaire.tar.gz
+ELF: 1.2.0
+--
+Name: thornq
+Section: Games
+Description: a card game
+URL: BASE/thornq.tar.gz
+ELF: 1.2.0
+--
+Name: tictactoe
+Section: Games
+Description: Well, I guess you know tictactoe 
+URL: BASE/tictactoe.tar.gz
+ELF: 1.2.0
+--
+Name: vr-tris
+Section: Games
+Description: a tetris clone
+URL: BASE/vr-tris.tar.gz
+ELF: 1.2.0
+--
+Name: auto-ppp
+Section: System
+Description: two scripts that handle ppp connections to the desktop
+URL: BASE/auto-ppp.vrp
+ELF: all
+--
+Name: backgrounds
+Section: Games
+Description: Georgs nice background collection (big)
+URL: BASE/backgrounds.vrp
+ELF: all
+--
+Name: xwolf-sdm
+Section: Games
+Description: Wolfenstein 3D - Spears of Destiny Demo
+URL: BASE/xwolf-sdm.vrp
+ELF: 1.2.0
+--
+Name: uninstaller
+Section: System
+Description: a program for removing installed packages
+URL: BASE/uninstaller.tar.gz
+ELF: 1.2.0
+--
