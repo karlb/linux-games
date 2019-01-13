@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">Linux-Games.com News</title>
-  <id>urn:uuid:8654ba3d-6531-34b9-8476-63b54b755005</id>
-  <updated>2017-02-12T00:00:00Z</updated>
+  <id>urn:uuid:539bab86-8779-3708-9791-1a330d450273</id>
+  <updated>2019-01-13T00:00:00Z</updated>
   <link href="http://www.linux-games.com/" />
   <link href="http://www.linux-games.com/feed.xml" rel="self" />
   <author>
     <name></name>
   </author>
   <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
+  <entry xml:base="http://www.linux-games.com/blog/bumprace-158-released/">
+    <title type="text">Bumprace 1.5.8 released</title>
+    <id>urn:uuid:b078e123-5c3b-38c4-8138-883acebe8f8b</id>
+    <updated>2019-01-13T00:00:00Z</updated>
+    <link href="http://www.linux-games.com/blog/bumprace-158-released/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;p&gt;The sound files have been replaced with new ones with clearer licensing terms. See the change log for other minor changes.&lt;/p&gt;
+</content>
+  </entry>
   <entry xml:base="http://www.linux-games.com/blog/site-hosting-changes/">
     <title type="text">Site Hosting Changes</title>
-    <id>urn:uuid:a154d5c5-18ae-3038-badd-e8b28e761552</id>
+    <id>urn:uuid:7bf4a692-6f02-34a3-ad73-411941c6e0e0</id>
     <updated>2017-02-12T00:00:00Z</updated>
     <link href="http://www.linux-games.com/blog/site-hosting-changes/" />
     <author>
@@ -22,7 +33,7 @@
   </entry>
   <entry xml:base="http://www.linux-games.com/blog/bumprace-155-released/">
     <title type="text">Bumprace 1.5.5 released</title>
-    <id>urn:uuid:30f52329-f392-3064-a1f7-d4ed743fe560</id>
+    <id>urn:uuid:a71c5953-e85a-362a-90f7-811e9d03d2fd</id>
     <updated>2016-04-17T00:00:00Z</updated>
     <link href="http://www.linux-games.com/blog/bumprace-155-released/" />
     <author>
@@ -33,7 +44,7 @@
   </entry>
   <entry xml:base="http://www.linux-games.com/blog/nuclear-chess-playable-in-your-browser-and-on-android/">
     <title type="text">Nuclear Chess playable in your browser and on Android</title>
-    <id>urn:uuid:da302f5c-a37b-31be-aa52-9a21963fea08</id>
+    <id>urn:uuid:ae82142e-06c7-3fe3-87a3-3df707459622</id>
     <updated>2014-05-07T00:00:00Z</updated>
     <link href="http://www.linux-games.com/blog/nuclear-chess-playable-in-your-browser-and-on-android/" />
     <author>
@@ -45,7 +56,7 @@
   </entry>
   <entry xml:base="http://www.linux-games.com/blog/all-sources-available-on-bitbucket/">
     <title type="text">All sources available on Bitbucket</title>
-    <id>urn:uuid:e9a6df18-6e81-39d1-8a3f-cc877ff517c1</id>
+    <id>urn:uuid:bf34bde0-1749-3f47-ac4c-dfd582b31adb</id>
     <updated>2011-01-06T00:00:00Z</updated>
     <link href="http://www.linux-games.com/blog/all-sources-available-on-bitbucket/" />
     <author>
@@ -56,7 +67,7 @@
   </entry>
   <entry xml:base="http://www.linux-games.com/blog/new-penguin-command-build-for-windows/">
     <title type="text">New Penguin Command build for Windows</title>
-    <id>urn:uuid:7d211183-d6da-312e-9c52-d6104a7e1666</id>
+    <id>urn:uuid:28911185-6d68-3540-bdae-0c2e16335224</id>
     <updated>2008-11-27T00:00:00Z</updated>
     <link href="http://www.linux-games.com/blog/new-penguin-command-build-for-windows/" />
     <author>
@@ -67,7 +78,7 @@
   </entry>
   <entry xml:base="http://www.linux-games.com/blog/black-box-148-released/">
     <title type="text">Black-box 1.4.8 released</title>
-    <id>urn:uuid:214574a6-5697-3de5-ba67-f2e2d7db9584</id>
+    <id>urn:uuid:532eb77d-c383-36ab-aaf3-5913d192ff18</id>
     <updated>2008-10-05T00:00:00Z</updated>
     <link href="http://www.linux-games.com/blog/black-box-148-released/" />
     <author>
