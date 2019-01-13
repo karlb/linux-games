@@ -1,0 +1,21 @@
+_model: page
+---
+body:
+
+<!--Main begin-->
+<div style="text-align:center">
+<h1>zTappy</h1>
+</div>
+<div class="col">
+<img src="shot1.png" alt="" width="240" height="320">
+    <dl class="block">
+<dt>What is zTappy?</dt><dd>A simple action game. There's a 5*5 matrix on which one symbol appears every few second. You have to select all appearances of one symbol within a short time to remove them. The game gets faster the longer you play. When the matrix is filled, you lose.</dd><dt>Downloads</dt><dd><ul><li><a href="ztappy_0.9.1_arm.ipk">zTappy.ipk</a> </li><li><a href="ztappy.tar.gz">zTappy source</a> </li></ul></dd>
+    </dl>
+</div>
+<div class="col">
+<img src="shot2.png" alt="" width="240" height="320">
+    <dl class="block">
+<dt>What's new in version 0.9.1?</dt><dd><ul><li>added double buffer</li><li>added highscore list</li></ul></dd>
+    </dl>
+</div>
+<!--Main end-->

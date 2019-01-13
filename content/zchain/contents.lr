@@ -1,0 +1,21 @@
+_model: page
+---
+body:
+
+<!--Main begin-->
+<div style="text-align:center">
+<h1>zChain</h1>
+</div>
+<div class="col">
+<img src="shot1.png" alt="" width="240" height="320">
+    <dl class="block">
+<dt>What is zChain?</dt><dd>A clone of the classic chain reaction game. Each turn you may choose one empty square, or a square you own. The value of the chosen square is incremented and if the square was empty, you are the new owner. If the value of a square gets bigger than the number of adjacent squares, it explodes. This means that the value is reduced by the number of adjacent squares, all adjacent squares become your squares and their value is incremented.</dd><dt>Downloads</dt><dd><ul><li><a href="zchain_0.9_arm.ipk">zChain.ipk</a> </li><li><a href="zchain.tar.gz">zChain source</a> </li></ul></dd>
+    </dl>
+</div>
+<div class="col">
+<img src="shot2.png" alt="" width="240" height="320">
+    <dl class="block">
+<dt>What's new in version 0.9?</dt><dd><ul><li>first public release</li><li>please report bugs</li></ul></dd>
+    </dl>
+</div>
+<!--Main end-->

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <title>JSNumbers</title>
+    <style>
+        #playingAreaBackground {
+            position: relative;
+            border: 1px solid black;
+            width: 520;
+            height: 520;
+	    background-image:url('img/back.jpg')
+        }
+        #playingArea {
+		position: absolute;
+		top: 20;
+		left: 20;
+		width: 480;
+		height: 480;
+		z-index: 0;
+        }
+	#wonPic {
+		position: relative;
+		margin: 130px 0;
+		z-index: 1;
+		display: none;
+	}
+
+	#rules {
+		width: 520px;
+	}
+	#rules dt {
+		font-weight: bold;	
+	}
+	body {
+		width: 660px;
+		padding: 0;
+		margin: 0 auto;
+	}
+	#page {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #dddddd;
+		padding: 10px 70px;
+		width: 520;
+		border-width: 0 1px;
+		border-style: solid;
+		border-color: #bbbbbb;
+	}
+	h1, h2, h3{
+		font-family: fantasy;
+	}
+    </style>
+    <script type="text/javascript" src="../js/MochiKit/MochiKit.js"></script>
+    <script language="JavaScript">
+	var mapSize = 6;
+	var blockSize = 80;
+
+	var map;
+	var mapDisplay;
+	var selected = false;
+	var selectX;
+	var selectY;
+	var moves = []; // for undo
+	
+	function display() {
+		var newArea = DIV({'style':'', 'id':'playingArea'}, null);
+		//mapDisplay = Array(mapSize);
+		for (var x= 0; x<mapSize; x++) {
+			//mapDisplay[x] = new Array(mapSize);
+			for (var y=0; y<mapSize; y++) {
+				if (map[x][y] == 0) {
+				//	continue;
+				}
+				var filename = map[x][y] + '.png'
+				if (selected && x == selectX && y == selectY) {
+					filename = map[x][y] + 'h.png'
+				}
+				else if (map[x][y] < 0) {
+					filename = -map[x][y] + '-moved.png'
+				}
+				if (selected && map[x][y] == 0 && hasDistance(selectX, selectY, x, y, map[selectX][selectY])) {
+					filename = '0-highlight.png';
+				}
+				var newNode = IMG({
+						'style': 'position: absolute; height: '+blockSize+'px; width: '+blockSize+'px; top: '+y*blockSize+'px; left: '+x*blockSize+'px;',
+						'onclick': 'clicked('+x+','+y+')',
+						'src': 'img/' + filename
+						},
+					map[x][y]
+				);
+				/*var newNode = DIV({
+						'style': 'position: absolute; height: '+blockSize+'px; width: '+blockSize+'px; top: '+y*blockSize+'px; left: '+x*blockSize+'px;',
+						'onclick': 'clicked('+x+','+y+')'
+						},
+					map[x][y]
+				);*/
+				//mapDisplay[x][y] = h;
+				newArea.appendChild(newNode);
+			}
+		}
+		swapDOM('playingArea', newArea);
+	}
+
+	function hasDistance(x1, y1, x2, y2, dist) {
+		if(Math.abs(x1 - x2) == dist && y1 == y2) {
+			return true;
+		}
+		else if(Math.abs(y1 - y2) == dist && x1 == x2) {
+			return true;
+		}
+		else if(Math.abs(y1 - y2) == dist && Math.abs(x1 - x2) == dist) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+	function clicked(x, y) {
+		log(x,y);
+		if (map[x][y] > 0) {
+			if (selected && selectX == x && selectY == y) {
+				selected = false;
+			} else {
+				log('select');
+				selectX = x;
+				selectY = y;
+				selected = true;
+			}
+		}
+		else if (selected) {
+			log('move');
+			if ( (! hasDistance(selectX, selectY, x, y, map[selectX][selectY]) || (map[x][y] != 0)) ) {
+				return;
+			}
+			map[x][y] = -map[selectX][selectY];
+			map[selectX][selectY] = 0;
+			selected = false;
+			moves.push([selectX, selectY, x, y]);
+		}
+		display();
+		solvedTest();
+	}
+
+	function undo() {
+		if (moves.length == 0)
+			return;
+		var move = moves.pop();
+		map[move[0]][move[1]] = -map[move[2]][move[3]];
+		map[move[2]][move[3]] = 0;
+		selected = false;
+		display();
+	}
+        
+        function init() {
+		levelSelect = getElement('levelSelect');
+		loadLevel(levelSelect.value);
+        }
+
+	function solvedTest() {
+		var won = true;
+		for (var x= 0; x<mapSize; x++) {
+			for (var y=0; y<mapSize; y++) {
+				if (map[x][y] > 0) {
+					won = false;
+				}
+			}
+		}
+		if (won) {
+			getElement('wonPic').style.display = 'block';
+		}
+	}
+
+	function loadLevel(url) {
+
+		d = loadJSONDoc(url);
+		d.addCallback( function (data) {
+			map = data;
+			log('level loaded');
+			display();
+		});
+		d.addErrback( function (err) {
+			alert('Could not load level: ' + err);
+		});
+		getElement('wonPic').style.display = 'none';
+		selected = false;
+	}
+        
+	</script>
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+		_uacct = "UA-118161-1";
+		urchinTracker();
+	</script>
+	</head>
+	<body onLoad="init()">
+		<div id="page">
+			<h1>JSNumbers</h1>
+			<form>
+				<select id="levelSelect" size="1" onchange="loadLevel(this.value)">
+					<option value="levels/level1.txt">Level 1</option>
+					<option value="levels/level2.txt">Level 2</option>
+					<option value="levels/level3.txt">Level 3</option>
+					<option value="levels/level4.txt">Level 4</option>
+					<option value="levels/level5.txt">Level 5</option>
+					<option value="levels/level6.txt">Level 6</option>
+					<option value="levels/level7.txt">Level 7</option>
+					<option value="levels/level8.txt">Level 8</option>
+					<option value="levels/level9.txt">Level 9</option>
+					<option value="levels/level10.txt">Level 10</option>
+				</select>
+				<input type="button" value="Restart" onclick="init()"/>
+				<input type="button" value="Undo" onclick="undo()"/>
+			</form>
+			<div id="playingAreaBackground">
+				<img id="wonPic" src="img/solved.png"/>
+				<div id="playingArea">
+				</div>
+			</div>
+			<div id="rules">
+				<h3>Rules</h3>
+				<dl>
+					<dt>Goal:</dt>
+					<dd>Move every block exactly once.</dd>
+					<dt>Movement: </dt>
+					<dd>
+						Every block can be moved horizontally, vertically or diagonally. The number on the block indicates how far the block must be moved. Other blocks between the start and destination don't prevent a movement, but the destination field must be free. All possible destinations are highlighted when you select a block.
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</body>
+</html>

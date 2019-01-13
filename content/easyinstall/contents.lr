@@ -1,0 +1,19 @@
+_model: page
+---
+body:
+
+<!--Main begin-->
+<div style="text-align:center">
+<h1>Easy Install Script</h1>
+</div>
+<div class="col">
+    <dl class="block">
+<dt>What is the easy install script?</dt><dd>This is a simple perl script, which gets agenda programs over the net and installs them on your agenda PDA. It also adds the correct lauchpad icons.</dd><dt>Downloads</dt><dd><UL> <li>The most recent version of the <a href="../agenda/ei.pl">easy install script</a></li> </UL></dd><dt>Usage</dt><dd>You need to copy the ei.pl into a directory where you have write access, and run it from that directory in order to work. The you can use the following commands:<BR><BR> <TABLE summary=""> <TR><TD>./ei.pl list</TD><TD>lists all available apps</TD></TR> <TR><TD><NOBR>./ei.pl install [appname]</NOBR></TD><TD>installs the requested app</TD></TR> <TR><TD>./ei.pl update</TD><TD>update package list and script</TD></TR> <!--TR><TD>./ei.pl romdisk</TD><TD>helps building a romdisk</TD></TR--> <TR><TD>./ei.pl ei2vrp [appname]</TD><TD>create .vrp of of the ei package</TD></TR> </TABLE></dd>
+    </dl>
+</div>
+<div class="col">
+    <dl class="block">
+<dt>What's new in version 1.0?</dt><dd><UL> <li>a lot of SNOW 1.2.0 packages are available</li> <li>you can uninstall packages</li> <li>both vrps and EasyInstall-tars are supported</li> </UL></dd><dt>Requirements</dt><dd><UL> <li>rsync</li> <li>wget</li> </UL></dd><dt>How do I make my program easy installable?</dt><dd><UL> <li>compile your program</li> <li>rename you program to [programname] and your icon to [programname].xpm</li> <li>move these files into a directory called [programname]</li> <li>tar.gz this directory</li> <li><a href="mailto:karlb@gmx.net">send me a mail</a> with the URL of this tar and a short description</li> </UL></dd>
+    </dl>
+</div>
+<!--Main end-->

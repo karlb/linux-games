@@ -1,0 +1,21 @@
+_model: page
+---
+body:
+
+<!--Main begin-->
+<div style="text-align:center">
+<h1>Black-Box</h1>
+</div>
+<div class="col">
+<img src="shot1.png" alt="" width="200" height="155">
+    <dl class="block">
+<dt>What is Black-Box?</dt><dd>There's a black box. You can shoot in and watch, where the shot leaves the box. In the box, crystals are reflecting the shots. You have to guess where the crystals are hidden, by watching your shots.</dd><dt>Downloads</dt><dd><ul><li><a href="black-box-1.4.8.tar.gz">Black-Box 1.4.8 for Linux (source)</a> </li><li><a href="black-box.exe">Black-Box 1.4.1 for Windows</a> </li><li><a href="http://www.epicware.com/FunAndGames.html">Black-Box for MacOS X</a> </li><li><a href="http://www.debian.org/Packages/unstable/games/black-box.html">Black-Box for debian</a> </li><li><a href="http://www.bebits.com/app/2123">Black-box for BeOS</a> </li><li><a href="http://come.to/georgie">Black-box for Solaris</a> </li><li><a href="http://www.aminet.net/package.php?package=game/think/blackbox1471-mos.lha">Black-box for Morphos</a> </li><li><a href="http://os4depot.net/index.php?function=showfile&file=game/board/blackbox.lha">Black-box for Amiga OS4</a> </li></ul></dd>
+    </dl>
+</div>
+<div class="col">
+<img src="shot2.png" alt="" width="200" height="155">
+    <dl class="block">
+<dt>What's new in version 1.4.8?</dt><dd><ul><li>autotools files</li><li>Remove compilation warnings</li><li>Fix buffer overflows</li><li>Erase previous level text</li><li>Fix level command option</li><li>Reuse path calculation function</li><li>Avoid repeated crystal generation</li><li>Fix window title</li></ul></dd>
+    </dl>
+</div>
+<!--Main end-->

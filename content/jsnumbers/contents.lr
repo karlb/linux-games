@@ -1,0 +1,21 @@
+_model: page
+---
+body:
+
+<!--Main begin-->
+<div style="text-align:center">
+<h1>jsNumbers</h1>
+</div>
+<div class="col">
+<img src="shot1.png" alt="" width="200" height="200">
+    <dl class="block">
+<dt>What is jsNumbers?</dt><dd>JsNumbers is a simple puzzle, where you have to move each block exactly once. But each block's movement is restricted to a certain distance.<br> The game is written in JavaScript and is played in the browser.</dd><dt>Play now</dt><dd><div style="text-align:center"> <a href="game.html" style="font-size:140%">Play now!</a> </div> (requires standards-compliant browser, like FireFox, Mozilla or Safari. Internet Explorer will not work)</dd>
+    </dl>
+</div>
+<div class="col">
+<img src="shot2.png" alt="" width="200" height="200">
+    <dl class="block">
+<dt>What's new in version 1.0?</dt><dd><ul><li>first release</li></ul></dd><dt>Links</dt><dd><ul> <li><a href="http://lightforce.freestuff.gr/znumbers.php">Flash version</a> by Nick Kouvaris</li> <li><a href="../znumbers/">zNumbers for the Sharp Zaurus PDA</a></li> <li><a href="../numbers/">Numbers for the Agenda VR3 PDA</a></li> </ul></dd>
+    </dl>
+</div>
+<!--Main end-->

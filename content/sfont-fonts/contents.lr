@@ -1,0 +1,86 @@
+_model: page
+---
+body:
+
+<!--Main begin-->
+<h1 style="text-align:center">Fonts for SFont</h1>
+<div class="col">
+<dl class="block">
+<dt>
+    Alpha-Mapped<br>
+</dt>
+<dd>
+Alpha-mapped fonts offer best visual quality and are recommended if you don't
+need to squeeze every bit of performance out of your program. I'm using only
+these.<br><br>
+    <a href="parafont.png"><img src="parafont.pre.png" alt="parafont.png" width="130" height="24"></a><br>
+<br>
+    <a href="SmallGray.png"><img src="smallgray.png" alt="SmallGray.png" width="140" height="30"></a><br>
+<br>
+    <a href="StoneFont.png"><img src="stone.png" alt="StoneFont.png" width="98" height="31"></a><br>
+<br>
+    <a href="SmallNeon.png"><img src="smallneon.png" alt="SmallNeon.png" width="1326" height="20"></a><br>
+<br>
+    <a href="SmallStone.png"><img src="smallstone.png" alt="SmallStone.png" width="994" height="13"></a><br>
+<br>
+    <a href="NeonFont.png"><img src="NeonFont.pre.png" alt="NeonFont.png" width="151" height="30"></a><br>
+<br>
+    <a href="14P_Arial_Angle_Red.png"><img src="14P_Arial_Angle_Red.pre.png" alt="14P_Arial_Angle_Red.png" width="232" height="23"></a><br>
+    <a href="14P_Arial_Angle_Red_Shadow2P.png">same font with shadow</a><br>
+<br>
+    <a href="14P_Arial_Plain_Red.png"><img src="14P_Arial_Plain_Red.pre.png" alt="14P_Arial_Plain_Red.png" width="221" height="23"></a><br>
+<br>
+    <a href="14P_Arial_Puffy_Red.png"><img src="14P_Arial_Puffy_Red.pre.png" alt="14P_Arial_Puffy_Red.png" width="229" height="23"></a><br>
+    <a href="14P_Arial_Puffy_Red_Shadow2P.png">same font with shadow</a><br>
+<br>
+    <a href="14P_Copperplate_Blue.png"><img src="14P_Copperplate_Blue.pre.png" alt="14P_Copperplate_Blue.png" width="262" height="21"></a><br>
+<br>
+    <a href="24P_Arial_Angle_Red.png"><img src="24P_Arial_Angle_Red.pre.png" alt="24P_Arial_Angle_Red.png" width="360" height="36"></a><br>
+<br>
+    <a href="24P_Arial_Blue.png"><img src="24P_Arial_Blue.pre.png" alt="24P_Arial_Blue.png" width="254" height="36"></a><br>
+<br>
+    <a href="24P_Arial_Metallic_Yellow.png"><img src="24P_Arial_Metallic_Yellow.pre.png" alt="24P_Arial_Metallic_Yellow.png" width="430" height="36"></a><br>
+    <a href="24P_Arial_Metallic_Yellow_Shadow3P.png">same font with shadow</a><br>
+<br>
+    <a href="24P_Arial_NeonBlue.png"><img src="24P_Arial_NeonBlue.pre.png" alt="24P_Arial_NeonBlue.png" width="336" height="36"></a><br>
+    <a href="24P_Arial_NeonBlue_Shadow3P.png">same font with shadow</a><br>
+<br>
+    <a href="24P_Arial_NeonYellow.png"><img src="24P_Arial_NeonYellow.pre.png" alt="24P_Arial_NeonYellow.png" width="371" height="36"></a><br>
+    <a href="24P_Arial_NeonYellow_Shadow3P.png">same font with shadow</a><br>
+<br>
+    <a href="24P_Arial_Puffy_Red.png"><img src="24P_Arial_Puffy_Red.pre.png" alt="24P_Arial_Puffy_Red.png" width="357" height="36"></a><br>
+    <a href="24P_Arial_Puffy_Red_Shadow3P.png">same font with shadow</a><br>
+<br>
+    <a href="24P_Arial_Puffy_Yellow.png"><img src="24P_Arial_Puffy_Yellow.pre.png" alt="24P_Arial_Puffy_Yellow.png" width="395" height="36"></a><br>
+    <a href="24P_Arial_Puffy_Yellow_Shadow3P.png">same font with shadow</a><br>
+<br>
+    <a href="24P_Copperplate_Blue.png"><img src="24P_Copperplate_Blue.pre.png" alt="24P_Copperplate_Blue.png" width="431" height="36"></a><br>
+<br>
+    <a href="24P_Copperplate_Metallic_Blue.png"><img src="24P_Copperplate_Metallic_Blue.pre.png" alt="24P_Copperplate_Metallic_Blue.png" width="467" height="26"></a><br>
+<br>
+</dd>
+</dl>
+</div>
+<div class="col">
+<dl class="block">
+<dt>
+    Not-Alpha-Mapped<br>
+</dt>
+<dd>
+    These fonts are blitted faster and have smaller file sizes, but they
+    don't have anti aliasing or translucency. <br><br>
+    <a href="ArialGold.png"><img src="arialgold.png" alt="ArialGold.png" width="2905" height="32"></a><br>
+<br>
+    <a href="ArialGold_Depleted.png"><img src="ArialGold_Depleted.pre.png" alt="ArialGold_Depleted.png" width="308" height="29"></a><br>
+<br>
+    <a href="arial_green_24_b.png"><img src="arial_green_24_b.pre.png" alt="arial_green_24_b.png" width="289" height="32"></a><br>
+<br>
+    <a href="arial_red_24_b.png"><img src="arial_red_24_b.pre.png" alt="arial_red_24_b.png" width="250" height="32"></a><br>
+<br>
+    <a href="arial_white_24.png"><img src="arial_white_24.pre.png" alt="arial_white_24.png" width="248" height="31"></a><br>
+<br>
+</dd>
+</dl>
+</div>
+<end>
+<!--Main end-->

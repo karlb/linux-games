@@ -1,0 +1,21 @@
+_model: page
+---
+body:
+
+<!--Main begin-->
+<div style="text-align:center">
+<h1>zSubHunt</h1>
+</div>
+<div class="col">
+<img src="shot1.png" alt="" width="240" height="320">
+    <dl class="block">
+<dt>What is zSubHunt?</dt><dd>A simple action game. submarines pass underneath your ship and you have to drop depth charges to destroy them.</dd><dt>Downloads</dt><dd><ul><li><a href="zsubhunt_1.0.0_arm.ipk">zSubHunt.ipk</a> </li><li><a href="zsubhunt.tar.gz">zSubHunt source</a> </li></ul></dd>
+    </dl>
+</div>
+<div class="col">
+<img src="shot2.png" alt="" width="240" height="320">
+    <dl class="block">
+<dt>What's new in version 1.0.0?</dt><dd><ul><li>hopefully fixed keyboard focus problems</li><li>difficulty levels work properly now</li><li>highscores are seperated by difficulty</li><li>game starts paused</li></ul></dd>
+    </dl>
+</div>
+<!--Main end-->

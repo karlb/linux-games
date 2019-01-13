@@ -1,0 +1,21 @@
+_model: page
+---
+body:
+
+<!--Main begin-->
+<div style="text-align:center">
+<h1>Black-Box-VR3</h1>
+</div>
+<div class="col">
+<img src="shot1.png" alt="" width="160" height="240">
+    <dl class="block">
+<dt>What is Black-Box-VR3?</dt><dd>It is a port of my puzzle game "<a href="../black-box">Black-Box</a>" to the Agenda-VR3 PDA. Since it uses xlib for graphics, you can try it on your normal X-Windows.</dd><dt>Downloads</dt><dd><ul><li><a href="black-box-VR3.tar.gz">Black-Box-VR3 1.1 (SNOW-binary and source)</a> </li></ul></dd>
+    </dl>
+</div>
+<div class="col">
+<img src="shot2.png" alt="" width="160" height="240">
+    <dl class="block">
+<dt>What's new in version 1.1?</dt><dd><ul><li>source code cleanup</li></ul></dd><dt>How to play</dt><dd>A certain number of crystals is hidden in this black-box. These crystals refelt incoming shots. You can shoot into the back and watch the shots coming out somewhere. Now you have to guess were the crystals are. If you found all crystals you have won the game. (better explanations are welcome!)</dd>
+    </dl>
+</div>
+<!--Main end-->

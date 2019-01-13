@@ -15,13 +15,10 @@ body:
 		<dt>Downloads</dt>
 		<dd>
 			<ul>
-				<li><a href="https://bitbucket.org/karlb/bumprace/get/1.5.5.tar.gz">BumpRace 1.5.5 for Linux(source)</a></li>
+				<li><a href="https://bitbucket.org/karlb/bumprace/downloads/?tab=tags">BumpRace for Linux (source)</a></li>
 				<li><a href="BumpRace.app.zip">BumpRace 1.5.2 for Mac OS X</a></li>
 				<li><a href="bumprace.exe">BumpRace 1.43 for Windows</a></li>
 				<li><a href="http://www.debian.org/Packages/unstable/games/bumprace.html">BumpRace for debian</a></li>
-				<li><a href="http://come.to/georgie">BumpRace for Solaris</a></li>
-				<li><a href="http://www.bebits.com/app/2125">BumpRace for BeOS</a>
-				</li>
 			</ul>
 		</dd>
 	</dl>
@@ -29,15 +26,16 @@ body:
 <div class="col">
 <img src="shot2.png" alt="" width="200" height="155">
     <dl class="block">
-		<dt>What's new in version 1.5.5?</dt>
+		<dt>What's new the latest version?</dt>
 		<dd>
-		<ul>
-			<li>updated autotools files</li>
-			<li>updated README</li>
-			<li>spelling corrections</li>
-			<li>less compiler warnings</li>
-			<li>reset levels to include time bonus when restarting game</li>
-		</ul></dd>
+			See the <a href="https://bitbucket.org/karlb/bumprace/src/default/ChangeLog">ChangeLog</a>.
+		</dd>
+    </dl>
+    <dl class="block">
+		<dt>Report Bugs and Conribute</dt>
+		<dd>
+			The source code is available at <a href="https://bitbucket.org/karlb/bumprace/">BitBucket</a>. You can also use the <a href="https://bitbucket.org/karlb/bumprace/issues">issue tracker</a> to report bugs and suggest improvements.
+		</dd>
     </dl>
 </div>
 <!--Main end-->
