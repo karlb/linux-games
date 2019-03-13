@@ -18,7 +18,7 @@ body:
 				<li><a href="https://bitbucket.org/karlb/bumprace/downloads/?tab=tags">BumpRace for Linux (source)</a></li>
 				<li><a href="BumpRace.app.zip">BumpRace 1.5.2 for Mac OS X</a></li>
 				<li><a href="bumprace.exe">BumpRace 1.43 for Windows</a></li>
-				<li><a href="http://www.debian.org/Packages/unstable/games/bumprace.html">BumpRace for debian</a></li>
+				<li><a href="http://www.debian.org/Packages/unstable/games/bumprace">BumpRace for debian</a></li>
 			</ul>
 		</dd>
 	</dl>
