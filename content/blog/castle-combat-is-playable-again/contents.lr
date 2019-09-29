@@ -1,0 +1,9 @@
+title: Castle-Combat is playable again
+---
+body:
+
+Roughly 13 years after the last release, Castle-Combat got a refresh that brings it into a playable state on modern machines, again. The code has been ported to python3 and recent numpy versions, so that you can run it without the need to install outdated dependencies. There's also bug fixes and game play improvements that were previously unreleased.
+
+Get it on <https://github.com/karlb/castle-combat>!
+---
+pub_date: 2019-09-29
