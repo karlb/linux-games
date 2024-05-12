@@ -15,7 +15,20 @@ body:
 <div class="col">
 <img src="shot2.png" alt="" width="200" height="200">
     <dl class="block">
-<dt>What's new in version 1.0?</dt><dd><ul><li>first release</li></ul></dd><dt>Links</dt><dd><ul> <li><a href="http://lightforce.freestuff.gr/znumbers.php">Flash version</a> by Nick Kouvaris</li> <li><a href="../znumbers/">zNumbers for the Sharp Zaurus PDA</a></li> <li><a href="../numbers/">Numbers for the Agenda VR3 PDA</a></li> </ul></dd>
-    </dl>
+		<dt>What's new in version 1.0?</dt>
+		<dd>
+			<ul>
+				<li>first release</li>
+			</ul>
+		</dd>
+		<dt>Links</dt>
+		<dd>
+			<ul>
+				<li><a href="http://lightforce.freestuff.gr/znumbers.php">Flash version</a> by Nick Kouvaris</li>
+				<li><a href="../znumbers/">zNumbers for the Sharp Zaurus PDA</a></li>
+				<li><a href="../numbers/">Numbers for the Agenda VR3 PDA</a></li>
+			</ul>
+		</dd>
+	</dl>
 </div>
 <!--Main end-->
