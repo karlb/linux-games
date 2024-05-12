@@ -18,11 +18,6 @@ body:
 			<ul>
 				<li><a href="black-box-1.4.8.tar.gz">Black-Box 1.4.8 for Linux (source)</a></li>
 				<li><a href="black-box.exe">Black-Box 1.4.1 for Windows</a></li>
-				<li><a href="http://www.epicware.com/FunAndGames.html">Black-Box for MacOS X</a></li>
-				<li><a href="http://www.debian.org/Packages/unstable/games/black-box.html">Black-Box for debian</a></li>
-				<li><a href="http://www.bebits.com/app/2123">Black-box for BeOS</a></li>
-				<li><a href="http://come.to/georgie">Black-box for Solaris</a></li>
-				<li><a href="http://www.aminet.net/package.php?package=game/think/blackbox1471-mos.lha">Black-box for Morphos</a></li>
 				<li><a href="http://os4depot.net/index.php?function=showfile&file=game/board/blackbox.lha">Black-box for Amiga OS4</a></li>
 			</ul>
 		</dd>

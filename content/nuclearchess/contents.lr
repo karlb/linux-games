@@ -9,7 +9,7 @@ body:
 
 <dl class="block">
   <dt>There is a new Nuclear Chess implementation</dt>
-  <dd>The <a href="http://karlb.github.com/nuclearchess">new Nuclear Chess</a> can be played right in your browser and also on your mobile phone. <strong>The rest of this page is outdated.</strong></dd>
+  <dd>The <a href="http://karlb.github.io/nuclearchess">new Nuclear Chess</a> can be played right in your browser and also on your mobile phone. <strong>The rest of this page is outdated.</strong></dd>
 </dl>
 
 <div class="col">
@@ -21,7 +21,6 @@ body:
 		<dd>
 			<ul>
 				<li><a href="nuclearchess-1.0.0.tar.gz">NuclearChess 1.0.0 for linux</a> </li>
-				<li><a href="NuclearChess.tar.bz2">NuclearChess 0.9.2 for MacOS X</a> </li>
 				<li><a href="http://os4depot.net/index.php?function=showfile&file=game/board/nuclearchess.lha">NuclearChess for Amiga OS4</a> </li>
 			</ul>
 		</dd>

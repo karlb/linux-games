@@ -9,7 +9,7 @@ body:
 <div class="col">
 <img src="shot1.png" alt="" width="240" height="320">
     <dl class="block">
-<dt>What is zMerlin?</dt><dd>A simple puzzle game. Your goal is to fill a 3*3 Matrix with penguins. When you tap on one block, the block itself and certain adjacent blocks are inverted. See <a href=\"http://www.cut-the-knot.com/ctk/Merlin.shtml\"> this</a> for more details.</dd><dt>Downloads</dt><dd><ul><li><a href="zmerlin_0.9.1_arm.ipk">zMerlin.ipk</a> </li><li><a href="zmerlin.tar.gz">zMerlin source</a> </li></ul></dd>
+<dt>What is zMerlin?</dt><dd>A simple puzzle game. Your goal is to fill a 3*3 Matrix with penguins. When you tap on one block, the block itself and certain adjacent blocks are inverted. See <a href="http://www.cut-the-knot.org/Curriculum/Algebra/Merlin.shtml"> this</a> for more details.</dd><dt>Downloads</dt><dd><ul><li><a href="zmerlin_0.9.1_arm.ipk">zMerlin.ipk</a> </li><li><a href="zmerlin.tar.gz">zMerlin source</a> </li></ul></dd>
     </dl>
 </div>
 <div class="col">
