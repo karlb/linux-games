@@ -6,4 +6,4 @@ url = http://www.linux-games.com
 target = ghpages://karlb/linux-games?cname=www.linux-games.com
 
 [packages]
-lektor-atom = 0.2
+lektor-atom = 0.4
