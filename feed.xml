@@ -1,102 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text">Linux-Games.com News</title>
-  <id>urn:uuid:539bab86-8779-3708-9791-1a330d450273</id>
-  <updated>2019-09-29T00:00:00Z</updated>
-  <link href="http://www.linux-games.com/" />
-  <link href="http://www.linux-games.com/feed.xml" rel="self" />
-  <author>
-    <name></name>
-  </author>
-  <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
-  <entry xml:base="http://www.linux-games.com/blog/castle-combat-is-playable-again/">
-    <title type="text">Castle-Combat is playable again</title>
-    <id>urn:uuid:b138727b-6ef2-3f8d-9e04-8ca89da5621e</id>
-    <updated>2019-09-29T00:00:00Z</updated>
-    <link href="http://www.linux-games.com/blog/castle-combat-is-playable-again/" />
-    <author>
-      <name></name>
-    </author>
-    <content type="html">&lt;p&gt;Roughly 13 years after the last release, Castle-Combat got a refresh that brings it into a playable state on modern machines, again. The code has been ported to python3 and recent numpy versions, so that you can run it without the need to install outdated dependencies. There's also bug fixes and game play improvements that were previously unreleased.&lt;/p&gt;
-&lt;p&gt;Get it on &lt;a href=&quot;https://github.com/karlb/castle-combat&quot;&gt;https://github.com/karlb/castle-combat&lt;/a&gt;!&lt;/p&gt;
-</content>
-  </entry>
-  <entry xml:base="http://www.linux-games.com/blog/bumprace-158-released/">
-    <title type="text">Bumprace 1.5.8 released</title>
-    <id>urn:uuid:32f177d3-7ca8-3816-9514-f5931bae4818</id>
-    <updated>2019-01-13T00:00:00Z</updated>
-    <link href="http://www.linux-games.com/blog/bumprace-158-released/" />
-    <author>
-      <name></name>
-    </author>
-    <content type="html">&lt;p&gt;The sound files have been replaced with new ones with clearer licensing terms. See the change log for other minor changes.&lt;/p&gt;
-</content>
-  </entry>
-  <entry xml:base="http://www.linux-games.com/blog/site-hosting-changes/">
-    <title type="text">Site Hosting Changes</title>
-    <id>urn:uuid:b2e104d6-076c-381e-bf40-156cc43b9b8b</id>
-    <updated>2017-02-12T00:00:00Z</updated>
-    <link href="http://www.linux-games.com/blog/site-hosting-changes/" />
-    <author>
-      <name></name>
-    </author>
-    <content type="html">&lt;p&gt;This site is now hosted at a different location and some technical changes have been done to make it easier to host this site. If you've subscribed to the news feed, please use &lt;a href=&quot;http://www.linux-games.com/feed.xml&quot;&gt;the new feed URL&lt;/a&gt;. If anything is broken, please &lt;a href=&quot;mailto:karl42@gmail.com&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry xml:base="http://www.linux-games.com/blog/bumprace-155-released/">
-    <title type="text">Bumprace 1.5.5 released</title>
-    <id>urn:uuid:d08b64b9-d80b-3151-9421-6705e26eebde</id>
-    <updated>2016-04-17T00:00:00Z</updated>
-    <link href="http://www.linux-games.com/blog/bumprace-155-released/" />
-    <author>
-      <name></name>
-    </author>
-    <content type="html">&lt;p&gt;Just the usual bunch of bug fixes and minor updates.&lt;/p&gt;
-</content>
-  </entry>
-  <entry xml:base="http://www.linux-games.com/blog/nuclear-chess-playable-in-your-browser-and-on-android/">
-    <title type="text">Nuclear Chess playable in your browser and on Android</title>
-    <id>urn:uuid:7ebfa1ac-5e41-3ec2-968b-d082490e117e</id>
-    <updated>2014-05-07T00:00:00Z</updated>
-    <link href="http://www.linux-games.com/blog/nuclear-chess-playable-in-your-browser-and-on-android/" />
-    <author>
-      <name></name>
-    </author>
-    <content type="html">&lt;p&gt;Nuclear Chess has been ported to JavaScript, so that you can &lt;a href=&quot;http://karlb.github.io/nuclearchess/&quot;&gt;play right from your browser&lt;/a&gt;. I've also packaged it as an Android App &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.github.elastic&quot;&gt;available on Google Play&lt;/a&gt;. Try it and &lt;a href=&quot;mailto:karl42@gmail.com&quot;&gt;let me know what you think&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;And if there's something you want to improve, feel free to dive into the &lt;a href=&quot;https://github.com/karlb/nuclearchess&quot;&gt;code on github&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry xml:base="http://www.linux-games.com/blog/all-sources-available-on-bitbucket/">
-    <title type="text">All sources available on Bitbucket</title>
-    <id>urn:uuid:781206e8-6de0-3186-b516-0c6e8af090d1</id>
-    <updated>2011-01-06T00:00:00Z</updated>
-    <link href="http://www.linux-games.com/blog/all-sources-available-on-bitbucket/" />
-    <author>
-      <name></name>
-    </author>
-    <content type="html">&lt;p&gt;The source code for all projects on this site is now available on bitbucket. If you want to contribute or grab a version with the latest changes, have a look at my &lt;a href=&quot;https://bitbucket.org/karlb&quot;&gt;bitbucket page&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry xml:base="http://www.linux-games.com/blog/new-penguin-command-build-for-windows/">
-    <title type="text">New Penguin Command build for Windows</title>
-    <id>urn:uuid:0687725c-a9c7-35d3-9741-9c632781f5da</id>
-    <updated>2008-11-27T00:00:00Z</updated>
-    <link href="http://www.linux-games.com/blog/new-penguin-command-build-for-windows/" />
-    <author>
-      <name></name>
-    </author>
-    <content type="html">&lt;p&gt;The latest version of Penguin Command is now also available for Windows. Thanks go to Kein-Hong Man for creating and packaging this build.&lt;/p&gt;
-</content>
-  </entry>
-  <entry xml:base="http://www.linux-games.com/blog/black-box-148-released/">
-    <title type="text">Black-box 1.4.8 released</title>
-    <id>urn:uuid:74248a1d-a606-34f4-a079-aebb81dad85c</id>
-    <updated>2008-10-05T00:00:00Z</updated>
-    <link href="http://www.linux-games.com/blog/black-box-148-released/" />
-    <author>
-      <name></name>
-    </author>
-    <content type="html">&lt;p&gt;This release fixes all known bugs. Thanks to Javier Serrano Polo, who did nearly all of the work on this release.&lt;/p&gt;
-</content>
-  </entry>
-</feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Games.com News</title><link href="http://www.linux-games.com/" rel="alternate"></link><link href="http://www.linux-games.com/feed.xml" rel="self"></link><id>urn:uuid:539bab86-8779-3708-9791-1a330d450273</id><updated>2019-09-29T00:00:00Z</updated><author><name></name></author><entry><title>Castle-Combat is playable again</title><link href="http://www.linux-games.com/blog/castle-combat-is-playable-again/" rel="alternate"></link><updated>2019-09-29T00:00:00Z</updated><author><name></name></author><id>urn:uuid:c7753d34-e946-3ec1-aaa4-96b4d43710fa</id><content type="html">&lt;p&gt;Roughly 13 years after the last release, Castle-Combat got a refresh that brings it into a playable state on modern machines, again. The code has been ported to python3 and recent numpy versions, so that you can run it without the need to install outdated dependencies. There's also bug fixes and game play improvements that were previously unreleased.&lt;/p&gt;
+&lt;p&gt;Get it on &lt;a href="https://github.com/karlb/castle-combat"&gt;https://github.com/karlb/castle-combat&lt;/a&gt;!&lt;/p&gt;
+</content></entry><entry><title>Bumprace 1.5.8 released</title><link href="http://www.linux-games.com/blog/bumprace-158-released/" rel="alternate"></link><updated>2019-01-13T00:00:00Z</updated><author><name></name></author><id>urn:uuid:b078e123-5c3b-38c4-8138-883acebe8f8b</id><content type="html">&lt;p&gt;The sound files have been replaced with new ones with clearer licensing terms. See the change log for other minor changes.&lt;/p&gt;
+</content></entry><entry><title>Site Hosting Changes</title><link href="http://www.linux-games.com/blog/site-hosting-changes/" rel="alternate"></link><updated>2017-02-12T00:00:00Z</updated><author><name></name></author><id>urn:uuid:7bf4a692-6f02-34a3-ad73-411941c6e0e0</id><content type="html">&lt;p&gt;This site is now hosted at a different location and some technical changes have been done to make it easier to host this site. If you've subscribed to the news feed, please use &lt;a href="http://www.linux-games.com/feed.xml"&gt;the new feed URL&lt;/a&gt;. If anything is broken, please &lt;a href="mailto:karl42@gmail.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content></entry><entry><title>Bumprace 1.5.5 released</title><link href="http://www.linux-games.com/blog/bumprace-155-released/" rel="alternate"></link><updated>2016-04-17T00:00:00Z</updated><author><name></name></author><id>urn:uuid:a71c5953-e85a-362a-90f7-811e9d03d2fd</id><content type="html">&lt;p&gt;Just the usual bunch of bug fixes and minor updates.&lt;/p&gt;
+</content></entry><entry><title>Nuclear Chess playable in your browser and on Android</title><link href="http://www.linux-games.com/blog/nuclear-chess-playable-in-your-browser-and-on-android/" rel="alternate"></link><updated>2014-05-07T00:00:00Z</updated><author><name></name></author><id>urn:uuid:ae82142e-06c7-3fe3-87a3-3df707459622</id><content type="html">&lt;p&gt;Nuclear Chess has been ported to JavaScript, so that you can &lt;a href="http://karlb.github.io/nuclearchess/"&gt;play right from your browser&lt;/a&gt;. I've also packaged it as an Android App &lt;a href="https://play.google.com/store/apps/details?id=com.github.elastic"&gt;available on Google Play&lt;/a&gt;. Try it and &lt;a href="mailto:karl42@gmail.com"&gt;let me know what you think&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;And if there's something you want to improve, feel free to dive into the &lt;a href="https://github.com/karlb/nuclearchess"&gt;code on github&lt;/a&gt;.&lt;/p&gt;
+</content></entry><entry><title>All sources available on Bitbucket</title><link href="http://www.linux-games.com/blog/all-sources-available-on-bitbucket/" rel="alternate"></link><updated>2011-01-06T00:00:00Z</updated><author><name></name></author><id>urn:uuid:bf34bde0-1749-3f47-ac4c-dfd582b31adb</id><content type="html">&lt;p&gt;The source code for all projects on this site is now available on bitbucket. If you want to contribute or grab a version with the latest changes, have a look at my &lt;a href="https://bitbucket.org/karlb"&gt;bitbucket page&lt;/a&gt;.&lt;/p&gt;
+</content></entry><entry><title>New Penguin Command build for Windows</title><link href="http://www.linux-games.com/blog/new-penguin-command-build-for-windows/" rel="alternate"></link><updated>2008-11-27T00:00:00Z</updated><author><name></name></author><id>urn:uuid:28911185-6d68-3540-bdae-0c2e16335224</id><content type="html">&lt;p&gt;The latest version of Penguin Command is now also available for Windows. Thanks go to Kein-Hong Man for creating and packaging this build.&lt;/p&gt;
+</content></entry><entry><title>Black-box 1.4.8 released</title><link href="http://www.linux-games.com/blog/black-box-148-released/" rel="alternate"></link><updated>2008-10-05T00:00:00Z</updated><author><name></name></author><id>urn:uuid:532eb77d-c383-36ab-aaf3-5913d192ff18</id><content type="html">&lt;p&gt;This release fixes all known bugs. Thanks to Javier Serrano Polo, who did nearly all of the work on this release.&lt;/p&gt;
+</content></entry></feed>
