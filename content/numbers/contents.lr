@@ -9,7 +9,7 @@ body:
 <div class="col">
 <img src="shot1.png" alt="" width="160" height="220">
     <dl class="block">
-<dt>What is Numbers?</dt><dd>A simple puzzle game. A field is filled with boxes. Every box is labeled with a number between 1 and 5, and the box may only be moved by that amount of fields. Your goal is to move every box once.</dd><dt>Downloads</dt><dd><ul><li><a href="Numbers.tar.gz">Numbers 0.9 (binary and source)</a> </li><li><a href="numbers.vrp">Numbers.vrp package (version 0.9, 1.2.0S only)</a> </li></ul></dd>
+<dt>What is Numbers?</dt><dd>A simple puzzle game. A field is filled with boxes. Every box is labeled with a number between 1 and 5, and the box may only be moved by that amount of fields. Your goal is to move every box once.</dd><dt>Downloads</dt><dd><ul><li><a href="numbers.tar.gz">Numbers 0.9 (binary and source)</a> </li><li><a href="numbers.vrp">Numbers.vrp package (version 0.9, 1.2.0S only)</a> </li></ul></dd>
     </dl>
 </div>
 <div class="col">

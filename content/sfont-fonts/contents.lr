@@ -15,13 +15,13 @@ need to squeeze every bit of performance out of your program. I'm using only
 these.<br><br>
     <a href="parafont.png"><img src="parafont.pre.png" alt="parafont.png" width="130" height="24"></a><br>
 <br>
-    <a href="SmallGray.png"><img src="smallgray.png" alt="SmallGray.png" width="140" height="30"></a><br>
+    <a href="SmallGray.png"><img src="SmallGray.png" alt="SmallGray.png" width="140" height="30"></a><br>
 <br>
     <a href="StoneFont.png"><img src="stone.png" alt="StoneFont.png" width="98" height="31"></a><br>
 <br>
-    <a href="SmallNeon.png"><img src="smallneon.png" alt="SmallNeon.png" width="1326" height="20"></a><br>
+    <a href="smallneon.png"><img src="smallneon.png" alt="SmallNeon.png" width="1326" height="20"></a><br>
 <br>
-    <a href="SmallStone.png"><img src="smallstone.png" alt="SmallStone.png" width="994" height="13"></a><br>
+    <a href="smallstone.png"><img src="smallstone.png" alt="SmallStone.png" width="994" height="13"></a><br>
 <br>
     <a href="NeonFont.png"><img src="NeonFont.pre.png" alt="NeonFont.png" width="151" height="30"></a><br>
 <br>
@@ -69,7 +69,7 @@ these.<br><br>
 <dd>
     These fonts are blitted faster and have smaller file sizes, but they
     don't have anti aliasing or translucency. <br><br>
-    <a href="ArialGold.png"><img src="arialgold.png" alt="ArialGold.png" width="2905" height="32"></a><br>
+    <a href="arialgold.png"><img src="arialgold.png" alt="ArialGold.png" width="2905" height="32"></a><br>
 <br>
     <a href="ArialGold_Depleted.png"><img src="ArialGold_Depleted.pre.png" alt="ArialGold_Depleted.png" width="308" height="29"></a><br>
 <br>
